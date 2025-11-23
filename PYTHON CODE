@@ -1,0 +1,48 @@
+
+def main() -> None:
+    name=input('enter account holders name')
+    acc_number=int(input('enter your account number'))
+    if acc_number==12345:
+         balance=23410
+    elif acc_number==23456:
+         balance=89023
+    elif acc_number==469978:
+         balance=33200
+    elif acc_number==74978:
+        balance=11003
+
+    print(name,'welcome to our bank')  2
+    #balance = 6666760.0  # Initialize balance
+
+    while True:
+        print("\n---BANKING SYSTEM---")
+        print("1. Deposite")
+        print("2. withdraw")
+        print("3. Check balance")
+        print("4.Exit")
+
+        choice =input("choose option")
+
+        if choice =='1':
+             amount=float(input("ENTER amount"))
+             if amount>0:
+                  balance=balance+amount
+                  print("amount deposited sucessfully",amount)
+                  print("amount balance ",balance)
+        elif choice == '2':
+             amount=float(input("ENTER amount want withdraw"))
+             if amount<= balance:
+                  balance = balance-amount
+                  print('your amount',amount,' withdran sussefully\n ')
+                  print("amount balance ",balance)
+             else:
+                  print("insufficient balance")
+        elif choice =='3':
+             print('Checking your balance')
+             print("YOUR BALNCE IS :",balance)
+        elif choice=='4':
+             print("exiting your bank project. goodbye")
+             break
+        else:
+             print("not getting any command, try again")
+main()
