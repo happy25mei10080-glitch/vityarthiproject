@@ -1,4 +1,3 @@
-
 def main() -> None:
     name=input('enter account holders name')
     acc_number=int(input('enter your account number'))
@@ -11,7 +10,7 @@ def main() -> None:
     elif acc_number==74978:
         balance=11003
 
-    print(name,'welcome to our bank')  2
+    print(name,'welcome to our bank')  
     #balance = 6666760.0  # Initialize balance
 
     while True:
