@@ -104,7 +104,8 @@ If you'd like enhancements, GUI version, or database integration—just let me k
 
 ## 📸 Project Code Screenshot
 
-![Code Screenshot](Screenshot_2025-11-22_164403.png)
+![Code Screenshot](Screenshot%202025-11-22%20164403.png)
+
 
 ## 📸 App Output -- Deposit
 
