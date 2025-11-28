@@ -113,12 +113,15 @@ If you'd like enhancements, GUI version, or database integration—just let me k
 
 ## 📸 App Output -- Withdrawal
 
-![Withdrawal Screenshot](Screenshot_2025-11-22_164811.png)
+![Deposit Screenshot](Screenshot%202025-11-22%20164720.png)
+
 
 ## 📸 App Output -- Check Balance
 
-![Balance Screenshot](Screenshot_2025-11-22_164828.png)
+![Withdrawal Screenshot](Screenshot%202025-11-22%20164811.png)
+
 
 ## 📸 App Output -- Exit
 
-![Exit Screenshot](Screenshot_2025-11-22_164849.png)
+![Exit Screenshot](Screenshot%202025-11-22%20164849.png)
+
